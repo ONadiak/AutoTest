@@ -1,0 +1,12 @@
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\obj\Debug\AutomationpracticeTest.csprojAssemblyReference.cache
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\obj\Debug\AutomationpracticeTest.csproj.CoreCompileInputs.cache
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\AutomationpracticeTest.dll
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\AutomationpracticeTest.pdb
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\nunit.framework.dll
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\WebDriver.dll
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\nunit.framework.xml
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\WebDriver.xml
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\obj\Debug\AutomationpracticeTest.csproj.CopyComplete
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\obj\Debug\AutomationpracticeTest.dll
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\obj\Debug\AutomationpracticeTest.pdb
+C:\Users\nadia\RiderProjects\AutomationpracticeTest\AutomationpracticeTest\bin\Debug\SeleniumExtras.WaitHelpers.dll
