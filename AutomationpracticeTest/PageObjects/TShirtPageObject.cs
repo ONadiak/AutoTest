@@ -16,7 +16,7 @@ namespace AutomationpracticeTest.PageObjects
             _webDriver = webDriver;
         }
 
-        public OrderPageObject AddToCart()
+        public OrderPageObject AddTshirtToCart()
         {
             WaitUntil.WaitElement(_webDriver, _addToCartButton );
             _webDriver.FindElement(_addToCartButton).Click();

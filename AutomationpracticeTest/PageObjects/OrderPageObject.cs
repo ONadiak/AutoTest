@@ -8,7 +8,7 @@ namespace AutomationpracticeTest.PageObjects
     {
         private IWebDriver _webDriver;
 
-        private readonly By _price = By.Id("total_product_price_1_1_0");
+        private readonly By _priceForCheck = By.Id("total_product_price_1_1_0");
         private readonly By _removeButton = By.XPath("//a[@class = 'cart_quantity_delete']");
         private readonly By _checkIsOrderRemoved = By.XPath("//p[@class = 'alert alert-warning']");
         
@@ -18,10 +18,10 @@ namespace AutomationpracticeTest.PageObjects
             _webDriver = webDriver;
         }
 
-        public string Check()
+        public string CheckIsOrderRemovedByPrice()
         { 
-            string price = _webDriver.FindElement(_price).Text;
-            return price;
+            string priceForChek = _webDriver.FindElement(_priceForCheck).Text;
+            return priceForChek;
         }
 
         public OrderPageObject RemoveOrder()

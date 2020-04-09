@@ -1,7 +1,4 @@
-﻿using System;
-using System.Security.AccessControl;
-using System.Threading;
-using AutomationpracticeTest.PageObjects;
+﻿using AutomationpracticeTest.PageObjects;
 using AutomationpracticeTest.Services;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -32,9 +29,9 @@ namespace AutomationpracticeTest
           var orderMenu = new OrderPageObject(_webDriver);
           mainMenu
               .ClickOnImage()
-              .AddToCart()
-              .Check();
-          string actualPrice = orderMenu.Check();
+              .AddTshirtToCart()
+              .CheckIsOrderRemovedByPrice();
+          string actualPrice = orderMenu.CheckIsOrderRemovedByPrice();
           Assert.AreEqual(UserNameForTest.ExpectedPrice, actualPrice, "Buy is wrong or wasn't completed");
         }
 
@@ -45,7 +42,7 @@ namespace AutomationpracticeTest
             var orderMenu = new OrderPageObject(_webDriver);
             mainMenu
                 .ClickOnImage()
-                .AddToCart()
+                .AddTshirtToCart()
                 .RemoveOrder()
                 .CheckIsOrderRemoved();
             string actualResult = orderMenu.CheckIsOrderRemoved();
