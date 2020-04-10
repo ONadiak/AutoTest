@@ -22,7 +22,7 @@
           <e p="UserNameForTest.cs" t="Include" />
           <e p="WaitUntil.cs" t="Include" />
         </e>
-        <e p="TestsFolder" t="Include">
+        <e p="Tests" t="Include">
           <e p="BaseTest.cs" t="Include" />
           <e p="Tests.cs" t="Include" />
         </e>

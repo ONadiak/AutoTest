@@ -56,9 +56,9 @@
         <Compile Include="PageObjects\TShirtPageObject.cs" />
         <Compile Include="Services\UserNameForTest.cs" />
         <Compile Include="Services\WaitUntil.cs" />
-        <Compile Include="TestsFolder\Tests.cs" />
+        <Compile Include="Tests\Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="TestsFolder\BaseTest.cs" />
+        <Compile Include="Tests\BaseTest.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
