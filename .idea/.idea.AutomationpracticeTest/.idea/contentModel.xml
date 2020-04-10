@@ -22,7 +22,10 @@
           <e p="UserNameForTest.cs" t="Include" />
           <e p="WaitUntil.cs" t="Include" />
         </e>
-        <e p="Tests.cs" t="Include" />
+        <e p="TestsFolder" t="Include">
+          <e p="BaseTest.cs" t="Include" />
+          <e p="Tests.cs" t="Include" />
+        </e>
       </e>
       <e p="AutomationpracticeTest.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

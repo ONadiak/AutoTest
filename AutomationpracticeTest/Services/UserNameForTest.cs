@@ -7,5 +7,6 @@
         public static string ExpectedResult { get; } = "Your shopping cart is empty.";
         
         public static string Link { get; } = "http://automationpractice.com/";
+        
     }
 }
